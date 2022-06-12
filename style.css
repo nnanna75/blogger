@@ -1,0 +1,157 @@
+html,body{
+    margin: 5;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+.nav{
+    background: white;
+    padding: 0.2rem;
+    height: 0rem;
+    min-height: 40vh;
+    overflow: hidden;
+}
+.nav .nav-brand a{
+    font-size: 1.6rem;
+    padding: 1rem 0;
+    display: block;
+    font-family: abel,cursive;
+}
+a{
+    text-decoration: none;
+    color: grey;
+}
+.ul{
+    list-style-type: none;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.nav .nav-menu{
+    justify-content: space-between;
+}
+.nav .nav-items{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+}
+.nav .nav-items .nav-links{
+    padding: 1.6rem;
+    font-size: 1.1rem;
+    position: relative;
+    font-family: abel,cursive;
+    font-size: 1.1rem;
+}
+.nav .nav-items .nav-links:hover{
+    background-color: skyblue;
+}
+.nav .nav-items .nav-links:hover a{
+    color: white;
+}
+.nav .social{
+    padding: 1.4rem 0;
+}
+.img1{
+    width: 20px;
+    margin-right: 200px;
+    cursor: pointer;
+}
+.img2{
+    width: 20px;
+    margin-left: 20px;
+    margin-top: -20px
+}
+.img3{
+    width: 20px;
+    margin-left: 40px;
+    margin-top: -18px;
+    cursor: pointer;
+}
+.nav .social i{
+    padding: 0.2rem;
+}
+.nav .social i:hover{
+    color: #a1c4cf;
+}
+.designs{
+    margin: 20px;
+}
+.site-title{
+    background: url("../img/male_categorie.jpg");
+    background-size: contain;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+}
+.site-background{
+    padding-top: 10rem;
+    text-align: center;
+    color: white;
+}
+main .site-title h1,h3{
+    margin: .3rem;
+}
+h1{
+    font-family: lexend;
+    font-size: 2.5rem;
+}
+h2{
+    font-family: lexend;
+}
+h3{
+    font-family: abel;
+    font-size: 1.3rem;
+}
+.btn{
+    margin: 1.8rem;
+    background: skyblue;
+}
+button.btn{
+    border: none;
+    border-radius: 2rem;
+    padding: 1rem 3rem;
+    font-family: livvic;
+    cursor: pointer;
+}
+main .site-title .btn:hover{
+    background: transparent;
+    border: 1px solid white;
+    color: white;
+}
+.one:hover{
+    text-decoration: underline;
+    background: white;
+    color: skyblue;
+}
+.two:hover{
+    text-decoration: underline;
+    background: white;
+    color: skyblue;
+}
+.three:hover{
+    text-decoration: underline;
+    background: white;
+    color: skyblue;
+}
+.four:hover{
+    text-decoration: underline;
+    background: white;
+    color: skyblue;
+}
+.cover{
+    width: 500px;
+    height: 380px;
+    margin: 5px;
+}
+.color{
+   color: blue;
+}
+.hermes{
+    width: 500px;
+    height: 380px;
+    margin: 5px;
+    float: right;
+    margin-top: -190px;
+}

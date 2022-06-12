@@ -1,0 +1,19 @@
+body{
+    background: url(../bloger/img/hermes_design.jpg);
+    background-size: contain;
+}
+.hermes{
+    text-align: center;
+}
+.herm{
+    width: 450px;
+    height: 400px;
+    margin-left: 750px;
+}
+.hem{
+    margin: 20px;
+    margin-top: -350px;
+}
+.male{
+    margin: 20px ;
+}
